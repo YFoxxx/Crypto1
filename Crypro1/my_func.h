@@ -16,5 +16,6 @@
 bool VernamCipher(std::string inputPath, std::string encryptedFile, std::string key);
 long long getSize(std::string fPath);
 void generateKey(std::string keyPath, long long size);
+void printBinaryFile(std::string inputPath, std::string binPath);
 
 #endif

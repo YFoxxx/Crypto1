@@ -19,6 +19,7 @@ int main()
         {
         case '1':
             generateKey("key.txt", getSize("input.txt"));
+            printBinaryFile("input.txt", "bin.txt");
             VernamCipher("input.txt", "encrypted.txt", "key.txt");
             break;
         case '2':
